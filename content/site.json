@@ -1,0 +1,54 @@
+{
+  "brand": {
+    "eyebrow": "Cotabato City, Philippines",
+    "headline_main": "I follow stories",
+    "headline_emphasis": "worth knowing.",
+    "intro": "I’m Paul Rabas. I create honest, useful content about places, people, public life, and the questions we encounter every day.",
+    "facebook_url": "https://www.facebook.com/share/1Cx4ycpAqE/?mibextid=wwXIfr",
+    "profile_image": "/media/paul-rabas.jpeg",
+    "profile_alt": "Portrait of Paul Rabas",
+    "profile_caption": "Creator • Writer • Public Servant",
+    "portrait_year": "2026",
+    "vertical_note": "CURIOUS • GROUNDED • LOCAL",
+    "footer_tagline": "Stories worth seeing. Information worth knowing."
+  },
+  "theme": {
+    "ink": "#12120f",
+    "paper": "#f4efe4",
+    "surface": "#fffdf8",
+    "accent": "#f5d31f",
+    "accent_dark": "#dcb900"
+  },
+  "topics": [
+    "FOOD & PLACES",
+    "PEOPLE & EVENTS",
+    "PUBLIC LIFE EXPLAINED",
+    "COTABATO STORIES"
+  ],
+  "about": {
+    "kicker": "The person behind Paul Today",
+    "heading": "Curiosity led me here.",
+    "lead": "I’ve spent much of my professional life inside public service, legislative work, and writing. That experience taught me to ask better questions, find the point, and explain it clearly.",
+    "body": "Paul Today is where that instinct meets the things I genuinely enjoy: good food, unfamiliar places, public events, social interactions, and stories that help people understand their city a little better."
+  },
+  "portfolio": [
+    {
+      "title": "Content creation",
+      "description": "Local stories, honest conversations, useful explainers, and the places worth experiencing."
+    },
+    {
+      "title": "Legislative & technical writing",
+      "description": "Clear, careful writing for ordinances, resolutions, policy work, and public communication."
+    },
+    {
+      "title": "Public service",
+      "description": "Work grounded in local governance and a close view of how public decisions affect daily life."
+    }
+  ],
+  "stories_intro": {
+    "kicker": "Videos and stories",
+    "heading": "Stories behind the screen.",
+    "body": "Watch the video, then read the context, people, and questions behind it."
+  },
+  "stories": []
+}
