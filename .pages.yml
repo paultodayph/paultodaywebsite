@@ -1,0 +1,206 @@
+media:
+  - name: images
+    label: Photos
+    input: media
+    output: /media
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp, avif]
+    rename: safe
+
+content:
+  - name: website
+    label: Paul Today Website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        label: Homepage
+        type: object
+        fields:
+          - name: eyebrow
+            label: Location line
+            type: string
+            required: true
+          - name: headline_main
+            label: Main headline
+            type: string
+            required: true
+          - name: headline_emphasis
+            label: Underlined headline
+            type: string
+            required: true
+          - name: intro
+            label: Introduction
+            type: text
+            required: true
+          - name: facebook_url
+            label: Facebook page link
+            type: string
+            required: true
+          - name: profile_image
+            label: Main photo
+            type: image
+            required: true
+            options:
+              media: images
+          - name: profile_alt
+            label: Photo description
+            type: string
+          - name: profile_caption
+            label: Role line below photo
+            type: string
+          - name: portrait_year
+            label: Year below photo
+            type: string
+          - name: vertical_note
+            label: Vertical words beside photo
+            type: string
+          - name: footer_tagline
+            label: Footer tagline
+            type: string
+
+      - name: theme
+        label: Website colors
+        type: object
+        fields:
+          - name: ink
+            label: Main dark color
+            type: string
+            required: true
+            description: "Use a six-digit hex color, such as #12120f"
+            pattern:
+              regex: "^#[0-9A-Fa-f]{6}$"
+              message: "Enter a hex color such as #12120f"
+          - name: paper
+            label: Main background
+            type: string
+            required: true
+            description: "Use a six-digit hex color, such as #f4efe4"
+            pattern:
+              regex: "^#[0-9A-Fa-f]{6}$"
+              message: "Enter a hex color such as #f4efe4"
+          - name: surface
+            label: Light section background
+            type: string
+            required: true
+            description: "Use a six-digit hex color, such as #fffdf8"
+            pattern:
+              regex: "^#[0-9A-Fa-f]{6}$"
+              message: "Enter a hex color such as #fffdf8"
+          - name: accent
+            label: Main accent color
+            type: string
+            required: true
+            description: "Use a six-digit hex color, such as #f5d31f"
+            pattern:
+              regex: "^#[0-9A-Fa-f]{6}$"
+              message: "Enter a hex color such as #f5d31f"
+          - name: accent_dark
+            label: Darker accent color
+            type: string
+            required: true
+            description: "Use a six-digit hex color, such as #dcb900"
+            pattern:
+              regex: "^#[0-9A-Fa-f]{6}$"
+              message: "Enter a hex color such as #dcb900"
+
+      - name: topics
+        label: Scrolling topics
+        type: string
+        list: true
+
+      - name: about
+        label: About section
+        type: object
+        fields:
+          - name: kicker
+            label: Small heading
+            type: string
+          - name: heading
+            label: Main heading
+            type: string
+            required: true
+          - name: lead
+            label: Opening paragraph
+            type: text
+            required: true
+          - name: body
+            label: Second paragraph
+            type: text
+            required: true
+
+      - name: portfolio
+        label: Portfolio entries
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: description
+            label: Description
+            type: text
+            required: true
+
+      - name: stories_intro
+        label: Videos section introduction
+        type: object
+        fields:
+          - name: kicker
+            label: Small heading
+            type: string
+          - name: heading
+            label: Main heading
+            type: string
+          - name: body
+            label: Introduction
+            type: text
+
+      - name: stories
+        label: Videos and stories
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} — {date}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: date
+            label: Date
+            type: date
+            required: true
+            options:
+              format: yyyy-MM-dd
+          - name: category
+            label: Category
+            type: string
+          - name: video_url
+            label: Facebook Reel or video link
+            type: string
+            required: true
+          - name: thumbnail
+            label: Thumbnail photo
+            type: image
+            options:
+              media: images
+          - name: thumbnail_alt
+            label: Thumbnail description
+            type: string
+          - name: excerpt
+            label: Short introduction
+            type: text
+          - name: story
+            label: Story behind the video
+            type: text
+          - name: published
+            label: Show on website
+            type: boolean
+            default: true
