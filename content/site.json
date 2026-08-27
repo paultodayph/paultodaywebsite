@@ -5,49 +5,53 @@
     "headline_emphasis": "worth knowing.",
     "intro": "I’m Paul Rabas. I create honest, useful content about places, people, public life, and the questions we encounter every day.",
     "facebook_url": "https://www.facebook.com/share/1Cx4ycpAqE/?mibextid=wwXIfr",
-    "profile_image": "/media/paul-rabas.jpeg",
+    "profile_image": "/media/826d893b-5734-4d30-b250-d9e191af2bfd.png",
     "profile_alt": "Portrait of Paul Rabas",
-    "profile_caption": "Sotries• Explainers • Everyday Life",
+    "profile_caption": "Stories • Explainers • Everyday Life",
     "portrait_year": "2026",
-    "vertical_note": "CURIOUS • GROUNDED • LOCAL",
+    "vertical_note": "CURIOUS • CONTEXT• LOCAL",
     "footer_tagline": "Stories worth seeing. Information worth knowing."
   },
   "theme": {
     "ink": "#12120f",
     "paper": "#f4efe4",
     "surface": "#fffdf8",
-    "accent": "#f5d31f",
-    "accent_dark": "#dcb900"
+    "accent": "#B7D0EA",
+    "accent_dark": "#6F91C2"
   },
   "topics": [
-    "FOOD & PLACES",
-    "PEOPLE & EVENTS",
-    "PUBLIC LIFE EXPLAINED",
-    "COTABATO STORIES"
+    "EXPLAINERS",
+    "PEOPLE & PLACES",
+    "CURRENT CONVERSATIONS",
+    "EVERYDAY LIFE"
   ],
   "about": {
     "kicker": "The person behind Paul Today",
     "heading": "Curiosity led me here.",
-    "lead": "I’ve spent much of my professional life inside public service, legislative work, and writing. That experience taught me to ask better questions, find the point, and explain it clearly.",
-    "body": "Paul Today is where that instinct meets the things I genuinely enjoy: good food, unfamiliar places, public events, social interactions, and stories that help people understand their city a little better."
+    "lead": "Most of my work happens behind the scenes in public service and legislative work. A lot of it involves reading, drafting, revising, and trying to understand how things work.",
+    "body": "Paul Today gives me space to follow that curiosity outside my usual work. Dito ko gustong magkuwento tungkol sa mga bagay na napapaisip ako, from public issues to people, places, and everyday life."
   },
   "portfolio": [
     {
-      "title": "Content creation",
-      "description": "Local stories, honest conversations, useful explainers, and the places worth experiencing."
+      "title": "Explainers",
+      "description": "Complex topics presented in a way that is easier to follow, with the context people need to understand the issue."
     },
     {
-      "title": "Legislative & technical writing",
-      "description": "Clear, careful writing for ordinances, resolutions, policy work, and public communication."
+      "title": "Current Conversations",
+      "description": "Current topics and public concerns, with enough context to make the conversation easier to follow."
     },
     {
-      "title": "Public service",
-      "description": "Work grounded in local governance and a close view of how public decisions affect daily life."
+      "title": "People & Places",
+      "description": "Stories about interesting people, places, and events, including details that may be easy to miss."
+    },
+    {
+      "title": "Everyday Life",
+      "description": "Everyday experiences, personal interests, routines, and little discoveries along the way, from things I enjoy to moments worth sharing."
     }
   ],
   "stories_intro": {
-    "kicker": "Videos and stories",
-    "heading": "Stories behind the screen.",
-    "body": "Watch the video, then read the context, people, and questions behind it."
+    "kicker": "Watch Paul Today",
+    "heading": "See what I’ve been working on.",
+    "body": "This is where I’ll share explainers, conversations, and everyday stories on video. New uploads will be added here as Paul Today grows."
   }
 }
