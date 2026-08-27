@@ -7,7 +7,7 @@
     "facebook_url": "https://www.facebook.com/share/1Cx4ycpAqE/?mibextid=wwXIfr",
     "profile_image": "/media/paul-rabas.jpeg",
     "profile_alt": "Portrait of Paul Rabas",
-    "profile_caption": "Creator • Writer • Public Servant",
+    "profile_caption": "Sotries• Explainers • Everyday Life",
     "portrait_year": "2026",
     "vertical_note": "CURIOUS • GROUNDED • LOCAL",
     "footer_tagline": "Stories worth seeing. Information worth knowing."
@@ -49,6 +49,5 @@
     "kicker": "Videos and stories",
     "heading": "Stories behind the screen.",
     "body": "Watch the video, then read the context, people, and questions behind it."
-  },
-  "stories": []
+  }
 }
